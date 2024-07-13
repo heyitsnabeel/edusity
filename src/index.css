@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+.project-b1{
+    margin-left: 15%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.project-img{
+    width: 100%;
+    height: 325px;
 }
+.hero-h6{
+    color: #b9b3b3;
+    font-weight: 600; 
+}
+.project-btn{
+    border: none;
+    margin-bottom: 0.5rem;
+}
+.project-p{
+    font-size: 0.8rem;
+}
+.active{
+    background-color: #FF3147;
+    color: white;
+}
+/* Popup.css */
+  
+.pop-div {
+    margin-left: 27%;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .input-container input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #6F718F99;
+    color: #6F718F99;
+    padding: 8px 0;
+    font-size: 16px;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 0;
+    pointer-events: none;
+    transition: 0.2s ease all;
+    color: #6F718F99;
+    font-size: 16px;
+  }
+  
+  .input-container input:focus ~ label,
+  .input-container input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #FF3147;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  .pop-span {
+    color: #6F718F99;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .pop-btn {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF3147;
+    color: white;
+    margin-top: 1rem;
+  }
+  

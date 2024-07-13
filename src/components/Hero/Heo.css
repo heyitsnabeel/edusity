@@ -1,0 +1,27 @@
+.hero{
+    height: 100vh;
+    background:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),url('../../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.hero-text{
+    padding-top: 15%;
+}
+.hero-text1{
+    font-size: 3.6rem;
+    
+    
+}
+.hero-b1{
+    margin-left: 25%;
+    padding-top: 8%;
+}
+.hero-btn{
+    background-color: white;
+    border-radius: 30px;
+}
+.dark_arrow{
+    width: 20px;
+    margin: 8px;
+}

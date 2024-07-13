@@ -1,0 +1,19 @@
+.nav-b1{
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    width: 180px;
+    margin-left: 40%;
+}
+.nab-btn{
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+} 
+.dark-nav{
+    background: #212EA0;
+    transition: .5s;
+    
+}
